@@ -15,6 +15,7 @@
     text-decoration: none;
     transition: .2s linear;
     font-family: "Roboto", sans-serif;
+    color: #fff;
 }
 
 body{
@@ -67,5 +68,45 @@ section{
 .icons i:hover{
     font-size: 2rem;
 }
+
+.btn{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.home-container{
+    background: url("./img/home-img.jpg");   
+    background-position: center center;
+    background-size: cover;
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 60rem;
+}
+
+.content h3{
+    font-size: 6rem;
+}
+
+.content p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+
 
 
