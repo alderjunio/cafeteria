@@ -150,7 +150,7 @@ section{
 
 
 
-.menu .box-container{
+.box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
@@ -195,6 +195,77 @@ section{
 .menu .box-container .box:hover>*{
     color: var(--black);
 }
+
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.review .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.review .box-container .box i{
+    color: #f7cb07;
+    font-size: 1.8rem;
+    margin: .1rem;
+}
+
+
+
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1rem 0;  
+}
+
+.footer i{
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.footer i:hover{
+   background: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
